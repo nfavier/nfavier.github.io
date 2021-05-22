@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nico Favier</title>
+
+  <!-- Change these Google fonts with your own choice -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Banner section -->
+  <div class="div-1">
+    <h1>Hola Mundo</h1>
+    <h2>Aca va un subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.</p><b><p>Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b></p>
+  </div>
+  <div class="div-2">
+    <img class="img-1" src="images\paris.jpg">
+  </div>
+  <div class="div-3">
+   <h1>hola</h1>
+  </div>
+  <!-- Cards section -->
+<a href="https://www.sindesperdicio.net.ar" target="_blank">Sin Desperdicio</a>
+  <!-- Footer section -->
+  <div class="div-4">
+    <ul>
+      <li>
+        <a href="#">
+          <i class="fas fa-anchor"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-angellist"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fas fa-bone"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/nicolas-favier-gonzalez/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

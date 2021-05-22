@@ -23,9 +23,20 @@
 
 .fas.fa-anchor{
 	color: black;
+	font-size: 50px;
 }
 
 .fab.fa-angellist{
-	color: seagreen;
+	color: black;
+	font-size: 50px;
+}
+
+.fas.fa-bone{
+	color: black;
+	font-size: 50px;
+}
+
+.fab.fa-linkedin{
+	color: black;
 	font-size: 50px;
 }

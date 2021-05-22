@@ -1,0 +1,31 @@
+/* Write some CSS below */
+.div-1 {
+  background-color: lightcoral;
+  }
+
+.div-2 {
+  background-color: grey;
+}
+
+.div-3 {
+  background-color: dimgrey;
+}
+
+.div-4 {
+  background-color: burlywood;
+}
+
+.img-1{
+	border-radius: 50%;
+	padding: 100px;
+	margin-right: 500px;
+}
+
+.fas.fa-anchor{
+	color: black;
+}
+
+.fab.fa-angellist{
+	color: seagreen;
+	font-size: 50px;
+}

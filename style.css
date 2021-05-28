@@ -1,23 +1,54 @@
 /* Write some CSS below */
-.div-1 {
-  background-color: lightcoral;
-  }
-
-.div-2 {
-  background-color: grey;
+body{
+	margin: 0;
 }
 
-.div-3 {
+h1{
+  color: #FFCB77;
+}
+
+p{
+	font-size: 16px;
+	color: RGB(34, 124, 157);
+}
+
+a:hover{
+	color: green ;
+}
+
+
+#header {
+  padding: 30px 10px;
+  /* border: 4px solid black; */
+  margin: 20px;
+  text-align: center;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+#preferencias {
+  padding: 30px 10px;
+  background-color: rgba(34, 124, 157, 0.5);
+  text-align: center;
+  border: 4px solid black;
+}
+
+#cards {
   background-color: dimgrey;
 }
 
-.div-4 {
+#lista {
   background-color: burlywood;
 }
 
-.img-1{
+.img-circle{
 	border-radius: 50%;
 	padding: 100px;
+}
+.border-black{
+		border: 4px solid black;
+}
+
+.margins{
 	margin-right: 500px;
 }
 

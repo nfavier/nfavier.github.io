@@ -9,6 +9,14 @@
   font-family: 'Roboto ', sans-serif;
 }
 
+.descripcion{
+	text-align: justify;
+}
+
+.descripciones-proyectos{
+	text-align: justify;
+}
+
 .button{
 	color: white;
 	text-decoration: none;
@@ -79,7 +87,7 @@
 .projects{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-column-gap: 20px;
+	grid-column-gap: 100px;
 	justify-content: center;
 }
 

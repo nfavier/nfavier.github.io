@@ -2,61 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Nico Favier Landing Page</title>
+  <title>Nicolas Favier Landing Page</title>
   <!-- Change these Google fonts with your own choice -->
-  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header section -->
-  <div id="header">
-    <h1>Hola Mundo</h1>
-    <h2>Aca va un subtitulo</h2>
+  <div class="container">
+  <div class="card-white">
+    <!-- introduction -->
+    <div id="banner">
+      <h1 class="titles">Portfolio de Proyectos de Nicolas Favier</h1>
+      <h3 class="titles">Master of Applied Science en Supply Chain Management </h3>
+      <h3 class="titles">Ingeniero Industrial y Mecánico </h3>
+    </div>
+  </div>
+  <div class="card-white">
+    <!-- first section -->
+    <h2>Perfil Profesional</h2>
+    <img src="images\fotoperfil.jpg" alt="foto perfil">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.</p><b><p>Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b></p>
+    <a href="https://www.linkedin.com/in/nicolas-favier-gonzalez/" target="_blank" class="button">Perfil de LinkedIn</a>
   </div>
-  <div id="preferencias">
-    <h1>Imagenes</h1>
-    <img class="img-circle border-black margins" src="images\paris.jpg">    
-    <img class="img-circle margins" src="images\london.jpg">
+  <div class="card-white">
+    <!-- second section -->
+    <!-- Proyectos -->
+    <div class="projects">
+      <!-- Proyecto 1 -->
+      <div>
+        <img class="img-circle" src="images\teams.png" alt="Proyecto 1">
+        <h3>Proyecto 1</h3>
+        <p>Descr Proyecto 1</p>
+      </div>
+      <!-- Proyecto 2 -->
+      <div> 
+        <img class="img-circle" src="images\docusign.png" alt="Proyecto 2">
+        <h3>Proyecto 2</h3>
+        <p>Descr Proyecto 2</p>  
+      </div>
+      <!-- Proyecto 3 -->
+      <div> 
+        <img class="img-circle" src="images\sindespercidio.jpg" alt="Proyecto 3">
+        <h3>Proyecto 3</h3>
+        <p>Descr Proyecto 3</p> 
+      </div>
+      <!-- Proyecto 4 -->
+      <div> 
+        <img class="img-circle" src="images\agile.png" alt="Proyecto 4">
+        <h3>Proyecto 4</h3>
+        <p>Descr Proyecto 4</p> 
+      </div>
+    </div>
   </div>
-<!-- Cards section -->
-  <div id="cards">
-    <h1>Hola otra vez</h1>
-  </div> -->
-<!-- Link -->
-  <div id="link">
-    <a href="https://www.sindesperdicio.net.ar" target="_blank">Sin Desperdicio</a>
+  <div class="card-white-left">
+    <!-- last section -->
+    <div>
+      <h2>Habilidades</h2>
+        <ul>
+          <li>Excel</li>
+          <li>PowerBI</li>
+          <li>Tableau</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+    </div>
   </div>
-<!-- Footer section -->
-  <div id="lista">
-    <ul>
-      <li>
-        <a href="#">
-          <i class="fas fa-anchor"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fab fa-angellist"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-bone"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/nicolas-favier-gonzalez/" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-    </ul>
+ <div class="card-white-left">
+  <!-- footer -->
+  <div>
+    <h2>Otros Intereses</h2>
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fas fa-futbol"> Fútbol</i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-film"> Películas</i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-music"> Música</i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-suitcase-rolling"> Viajar</i>
+          </a>
+        </li>
+      </ul>
+   </div>
   </div>
-  
 </body>
 </html>

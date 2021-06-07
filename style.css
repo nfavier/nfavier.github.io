@@ -102,6 +102,27 @@
 		box-shadow: 3px 3px 4px rgba(0, 0, 0,0.1);
 }
 
+#horizontal-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.habilidad-box {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 88.9px;
+  text-decoration: none;
+}
+
+.habilidad-box:hover {
+  background-color: #111111;
+}
+
 .fas.fa-futbol{
 	color: black;
 	font-size: 25px;

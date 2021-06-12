@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Required meta tags -->
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
   <title>Nicolas Favier Landing Page</title>
   <!-- Change these Google fonts with your own choice -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -10,93 +16,122 @@
 </head>
 <body>
   <div class="container">
-  <div class="card-white">
+  <div class="row align-items-center">
     <!-- introduction -->
-    <div id="banner">
-      <h1 class="titles">Portfolio de Proyectos de Nicolas Favier</h1>
-      <h3 class="titles">Master of Applied Science en Supply Chain Management </h3>
-      <h3 class="titles">Ingeniero Industrial y Mecánico </h3>
+    <div class="card-white">
+      <div id="banner">
+        <h1 class="titles">Portfolio de Proyectos de Nicolas Favier</h1>
+        <h3 class="titles">Master of Applied Science en Supply Chain Management </h3>
+        <h3 class="titles">Ingeniero Industrial y Mecánico </h3>
+      </div>
     </div>
   </div>
+ 
+  <!-- first section -->
   <div class="card-white">
-    <!-- first section -->
-    <h2>Perfil Profesional</h2>
-    <img src="images\fotoperfil.jpg" alt="foto perfil">
-    <p class="descripcion">Soy Ingeniero Industrial y Mecánico con un buen conocimiento en gestión de la producción y Supply Chain Management. Poseo además una formación completa en filosofías como Lean Management y Six Sigma. Me considero proactivo, orientado a soluciones, responsable y con visión estratégica y sistémica. Me desempeño de excelente manera trabajando en equipo y busco siempre desarrollar la mejora continua. Me gusta mucho también practicar deportes, en especial fúbol; escuchar música; ver series y películas.</p>
-    <a href="https://www.linkedin.com/in/nicolas-favier-gonzalez/" target="_blank" class="button">Perfil de LinkedIn</a>
+    <div class="row align-items-end">
+      <div class="col">
+        <img class="rounded mx-auto d-block" width = "300" height = "300" src="images\fotoperfil.jpg" alt="foto perfil">
+      </div>
+      <div class="row align-items-end">
+        <h2>Perfil Profesional</h2>
+      </div>
+      <div class="row align-items-end">
+        <div class="col align-self-center">
+          <p class="descripcion">Soy Ingeniero Industrial y Mecánico con un buen conocimiento en gestión de la producción y Supply Chain Management. Poseo además una formación completa en filosofías como Lean Management y Six Sigma. Me considero proactivo, orientado a soluciones, responsable y con visión estratégica y sistémica. Me desempeño de excelente manera trabajando en equipo y busco siempre desarrollar la mejora continua. Me gusta mucho también practicar deportes, en especial fúbol; escuchar música; ver series y películas.</p>
+          <a href="https://www.linkedin.com/in/nicolas-favier-gonzalez/" target="_blank" class="button">Perfil de LinkedIn</a>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="card-white">
+          
     <!-- second section -->
     <!-- Proyectos -->
-    <div class="projects">
-      <!-- Proyecto 1 -->
-      <div>
-        <img class="img-circle" src="images\teams.png" alt="Proyecto 1">
-        <h3>Proyecto Teams</h3>
-        <p class="descripciones-proyectos">Implementación de herramientas de colaboración de Microsoft para trabajar colaborativamente en los equipos dentro de una organización de 2.500 empleados</p>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!-- Proyecto 1 -->
+          <img class="rounded mx-auto d-block img-circle card-white" width = "300" height = "300" src="images\teams.png" alt="Proyecto 1">
+          <h3>Proyecto Teams</h3>
+          <p class="descripciones-proyectos">Implementación de herramientas de colaboración de Microsoft para trabajar colaborativamente en los equipos dentro de una organización de 2.500 empleados</p>
+        </div>
+        <div class="col">
+          <!-- Proyecto 2 -->
+          <img class="rounded mx-auto d-block img-circle card-white" width = "300" height = "300" src="images\docusign.png" alt="Proyecto 2">
+          <h3>Proyecto DocuSign</h3>
+          <p class="descripciones-proyectos">Transformación de procesos para pasar de firmas en papel a firma electrónica y digital en procesos comerciales y de compliance</p> 
+        </div>
+        <div class="col">
+          <!-- Proyecto 3 -->
+          <img class="rounded mx-auto d-block img-circle card-white" width = "300" height = "300" src="images\sindespercidio.jpg" alt="Proyecto 3">
+          <h3>Proyecto Sin Desperdicio</h3>
+          <p class="descripciones-proyectos">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p> 
+        </div>
+        <div class="col">
+          <!-- Proyecto 4 -->
+          <img class="rounded mx-auto d-block img-circle card-white" width = "300" height = "300" src="images\agile.png" alt="Proyecto 4">
+          <h3>Proyecto Agilidad</h3>
+          <p class="descripciones-proyectos">Implementación de un modelo de gestión ágil en los distintos equipos de la organización para obtener resultados más rápidamente</p> 
+        </div>
       </div>
-      <!-- Proyecto 2 -->
-      <div> 
-        <img class="img-circle" src="images\docusign.png" alt="Proyecto 2">
-        <h3>Proyecto DocuSign</h3>
-        <p class="descripciones-proyectos">Transformación de procesos para pasar de firmas en papel a firma electrónica y digital en procesos comerciales y de compliance</p>  
+    </div>
+<!-- last section -->
+  <div class="container">
+    <h2>Habilidades</h2>
+    <div class="row">
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        Excel
       </div>
-      <!-- Proyecto 3 -->
-      <div> 
-        <img class="img-circle" src="images\sindespercidio.jpg" alt="Proyecto 3">
-        <h3>Proyecto Sin Desperdicio</h3>
-        <p class="descripciones-proyectos">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p> 
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        PowerBI
       </div>
-      <!-- Proyecto 4 -->
-      <div> 
-        <img class="img-circle" src="images\agile.png" alt="Proyecto 4">
-        <h3>Proyecto Agilidad</h3>
-        <p class="descripciones-proyectos">Implementación de un modelo de gestión ágil en los distintos equipos de la organización para obtener resultados más rápidamente</p> 
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        Tableau
+      </div>
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        SQL
+      </div>
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        Python
+      </div>
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        HTML
+      </div>
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        CSS
       </div>
     </div>
   </div>
-  <div class="card-white-left">
-    <!-- last section -->
-    <div>
-      <h2>Habilidades</h2>
-        <ul id="horizontal-list">
-          <li class="habilidad-box">Excel</li>
-          <li class="habilidad-box">PowerBI</li>
-          <li class="habilidad-box">Tableau</li>
-          <li class="habilidad-box">SQL</li>
-          <li class="habilidad-box">Python</li>
-          <li class="habilidad-box">HTML</li>
-          <li class="habilidad-box">CSS</li>
-        </ul>
-    </div>
-  </div>
- <div class="card-white-left">
+
+  
+ 
   <!-- footer -->
-    <div>
-      <h2>Otros Intereses</h2>
-      <div class="projects">
-        <div>
-          <a href="#">
-            <i class="fas fa-futbol"> Fútbol</i>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <i class="fas fa-film"> Películas</i>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <i class="fas fa-music"> Música</i>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <i class="fas fa-suitcase-rolling"> Viajar</i>
-          </a>
-        </div>
+<div class="container">
+    <h2>Otros Intereses</h2>
+    <div class="row">
+      <div class="col rounded mx-auto d-block img-circle card-white">
+       <a href="#">
+          <i class="fas fa-futbol"> Fútbol</i>
+        </a>
+      </div>
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        <a href="#">
+          <i class="fas fa-film"> Películas</i>
+        </a>
+      </div>
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        <a href="#">
+          <i class="fas fa-music"> Música</i>
+        </a>
+      </div>
+      <div class="col rounded mx-auto d-block img-circle card-white">
+        <a href="#">
+          <i class="fas fa-suitcase-rolling"> Viajar</i>
+        </a>
       </div>
     </div>
   </div>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

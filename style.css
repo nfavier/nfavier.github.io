@@ -25,6 +25,7 @@
 	border-radius: 20px;
 	display: inline-block;
 	transition: .3s;
+	width: 200px;
 }
 
 .button:hover{
@@ -49,17 +50,18 @@
 		text-align: center;
 		font-size: 24px;
 		font-family: 'Roboto', sans-serif;
-		margin: 20px;
+		margin: 20px 0px;
 		box-shadow: 3px 3px 4px rgba(0, 0, 0,0.1);
-}
+		}
 
 .card-white img{
-	width: 180px;
+	width: auto;
 	height: 180px;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 50%;
-	border: 2px solid black; 
+	border: 2px solid black;
+
 }
 
 .img-circle{
@@ -68,6 +70,11 @@
 
 .img-circle:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.img-size{
+	width: 180px;
+	height: 180px;
 }
 
 @media (max-width: 960px){
@@ -83,6 +90,10 @@
 		font-family: 'Roboto', sans-serif;
 	}
 }
+
+
+
+
 
 .projects{
 	display: grid;

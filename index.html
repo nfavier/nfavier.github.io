@@ -30,58 +30,53 @@
 <body>
   <div class="container">
     <!-- introduction -->
-    <div class="container">
+    <div class="container my-3 border rounded">
       <div class="row align-items-center">
-        <div class="card-white">
-          <div id="banner">
+          <div class="col" id="banner">
             <h1 class="titles">Portfolio de Proyectos de Nicolas Favier</h1>
             <h3 class="titles">Master of Applied Science en Supply Chain Management </h3>
             <h3 class="titles">Ingeniero Industrial y Mecánico </h3>
           </div>
-        </div>
       </div>
     </div>
     <!-- first section -->
-    <div class="container">
-      <div class="card-white">
+    <div class="container my-3 border rounded container-box-sahdow">
         <div class="row p-3">
           <div class="col">
-            <img class="rounded mx-auto d-block" width = "300" height = "300" src="images\fotoperfil.jpg" alt="foto perfil">
+            <img class="rounded mx-auto d-block" width = "200" height = "200" src="images\fotoperfil.jpg" alt="foto perfil">
           </div>
         </div>
         <div class="row">
           <div class="col p-3">
-            <h2 style="font-weight: bold" class="sub-titles">Perfil Profesional</h2>
+            <h2 class="sub-titles">Perfil Profesional</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col p-3">
             <p class="descripcion">Soy Ingeniero Industrial y Mecánico con un buen conocimiento en gestión de la producción y Supply Chain Management. Poseo además una formación completa en filosofías como Lean Management y Six Sigma. Me considero proactivo, orientado a soluciones, responsable y con visión estratégica y sistémica. Me desempeño de excelente manera trabajando en equipo y busco siempre desarrollar la mejora continua. Me gusta mucho también practicar deportes, en especial fúbol; escuchar música; ver series y películas.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col d-flex justify-content-center p-3">
             <a href="https://www.linkedin.com/in/nicolas-favier-gonzalez/" target="_blank" class="btn btn-primary btn-lg button">Perfil de LinkedIn</a>
           </div>
         </div>
-      </div>
     </div>         
     <!-- second section -->
-    <div class="container">
+    <div class="container my-3 border rounded container-box-sahdow">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
-        <div class="carousel-inner my-carousel-bg">
+        <div class="carousel-inner">
             <div class="carousel-item active">
                 <!-- Proyectos -->
-                <div class="container">
+                <div class="container px-5 py-3">
                   <div class="row">
                     <!-- Proyecto 1 -->
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center py-3">
                       <div class="card h-100" style="width: 18rem;">
                         <img width = "300" height = "150" src="images\teams.png" class="card-img-top image-border project-image" alt="Proyecto 1">
                         <div class="card-body d-flex flex-column">
@@ -94,7 +89,7 @@
                       </div>
                     </div>
                     <!-- Proyecto 2 -->
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center py-3">
                       <div class="card h-100" style="width: 18rem;">
                         <img width = "300" height = "150" src="images\docusign.png" class="card-img-top image-border project-image" alt="Proyecto 2">
                         <div class="card-body d-flex flex-column">
@@ -105,6 +100,17 @@
                           </button>
                         </div>
                       </div>
+                    </div>
+                    <!-- Proyecto 3 -->
+                    <div class="col d-flex justify-content-center py-3">   
+                      <div class="card h-100" style="width: 18rem;">
+                        <img width = "300" height = "150" src="images\sindespercidio.jpg" class="card-img-top image-border project-image" alt="Proyecto 3">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Proyecto Plataforma Sin Desperdicio</h5>
+                          <p class="card-text">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>
+                          <a href="https://www.sindesperdicio.net.ar/" target="_blank" class="btn btn-primary mt-auto">Ver Proyecto</a>
+                        </div>
+                      </div>
                     </div>                
                   </div>
                 </div>
@@ -112,21 +118,10 @@
             </div>
             <div class="carousel-item">
               <!-- Proyectos -->
-              <div class="container">
+              <div class="container px-5 py-3">
                 <div class="row">
-                  <!-- Proyecto 3 -->
-                  <div class="col d-flex justify-content-center">   
-                    <div class="card h-100" style="width: 18rem;">
-                      <img width = "300" height = "150" src="images\sindespercidio.jpg" class="card-img-top image-border project-image" alt="Proyecto 3">
-                      <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Proyecto Plataforma Sin Desperdicio</h5>
-                        <p class="card-text">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>
-                        <a href="https://www.sindesperdicio.net.ar/" target="_blank" class="btn btn-primary mt-auto">Ver Proyecto</a>
-                      </div>
-                    </div>
-                  </div>
                   <!-- Proyecto 4 -->
-                  <div class="col d-flex justify-content-center">
+                  <div class="col d-flex justify-content-center py-3">
                     <div class="card h-100" style="width: 18rem;">
                       <img width = "300" height = "150" src="images\agile.png" class="card-img-top image-border project-image" alt="Proyecto 4">
                       <div class="card-body d-flex flex-column">
@@ -138,35 +133,74 @@
                       </div>
                     </div>
                   </div>
+                  <!-- Proyecto 5 -->
+                  <div class="col d-flex justify-content-center py-3">   
+                    <div class="card h-100" style="width: 18rem;">
+                      <img width = "300" height = "150" src="images\bom.png" class="card-img-top image-border project-image" alt="Proyecto 5">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Proyecto Optimización de SKUs y Listas de Materiales</h5>
+                        <p class="card-text">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>
+                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal5">
+                          Ver Caso de Estudio
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Proyecto 6 -->
+                  <div class="col d-flex justify-content-center py-3">
+                    <div class="card h-100" style="width: 18rem;">
+                      <img width = "300" height = "150" src="images\wine-bottle.jpg" class="card-img-top image-border project-image" alt="Proyecto 6">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Proyecto Optimización de Stocks de Insumos Secos</h5>
+                        <p class="card-text">Implementación de un modelo de gestión ágil en los distintos equipos de la organización para obtener resultados más rápidamente</p>
+                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal6">
+                          Ver Caso de Estudio
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- Proyectos -->
             </div>
             <div class="carousel-item">
                 <!-- Proyectos -->
-                <div class="container">
+                <div class="containerpx-5 py-3">
                   <div class="row">
-                    <!-- Proyecto 5 -->
-                    <div class="col d-flex justify-content-center">   
+                    <!-- Proyecto 7 -->
+                    <div class="col d-flex justify-content-center py-3">   
                       <div class="card h-100" style="width: 18rem;">
-                        <img width = "300" height = "150" src="images\bom.png" class="card-img-top image-border project-image" alt="Proyecto 5">
+                        <img width = "300" height = "150" src="images\LOGO_LOP.png" class="card-img-top image-border project-image" alt="Proyecto 7">
                         <div class="card-body d-flex flex-column">
-                          <h5 class="card-title">Proyecto Optimización de SKUs y Listas de Materiales</h5>
-                          <p class="card-text">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>
-                          <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal5">
+                          <h5 class="card-title">Proyecto LOP Supply Chain Management</h5>
+                          <p class="card-text">Plataforma la gestión integral de la cadena de suministro que permite que los distintos actores involucrados interactúen de manera más eficiente</p>
+                          <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal7">
                             Ver Caso de Estudio
                           </button>
                         </div>
                       </div>
                     </div>
-                    <!-- Proyecto 6 -->
-                    <div class="col d-flex justify-content-center">
+                    <!-- Proyecto 8 -->
+                    <div class="col d-flex justify-content-center py-3">
                       <div class="card h-100" style="width: 18rem;">
-                        <img width = "300" height = "150" src="images\wine-bottle.jpg" class="card-img-top image-border project-image" alt="Proyecto 6">
+                        <img width = "300" height = "150" src="images\chru.png" class="card-img-top image-border project-image" alt="Proyecto 8">
                         <div class="card-body d-flex flex-column">
-                          <h5 class="card-title">Proyecto Optimización de Stocks de Insumos Secos</h5>
-                          <p class="card-text">Implementación de un modelo de gestión ágil en los distintos equipos de la organización para obtener resultados más rápidamente</p>
-                          <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal6">
+                          <h5 class="card-title">Proyecto Stock Material Quirúrgico</h5>
+                          <p class="card-text">Mejora del proceso de gestión de stocks del material quirúrgico de un hospital para aumentar la productividad del personal de enfermería</p>
+                          <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal8">
+                            Ver Caso de Estudio
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Proyecto 9 -->
+                    <div class="col d-flex justify-content-center py-3">
+                      <div class="card h-100" style="width: 18rem;">
+                        <img width = "300" height = "150" src="images\chru.png" class="card-img-top image-border project-image" alt="Proyecto 8">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Proyecto 9</h5>
+                          <p class="card-text">Mejora del proceso de gestión de stocks del material quirúrgico de un hospital para aumentar la productividad del personal de enfermería</p>
+                          <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal9">
                             Ver Caso de Estudio
                           </button>
                         </div>
@@ -176,54 +210,22 @@
                 </div>
                 <!-- Proyectos -->
             </div>
-            <div class="carousel-item">
-              <!-- Proyectos -->
-              <div class="container">
-                <div class="row">
-                  <!-- Proyecto 7 -->
-                  <div class="col d-flex justify-content-center">   
-                    <div class="card h-100" style="width: 18rem;">
-                      <img width = "300" height = "150" src="images\LOGO_LOP.png" class="card-img-top image-border project-image" alt="Proyecto 7">
-                      <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Proyecto LOP Supply Chain Management</h5>
-                        <p class="card-text">Plataforma la gestión integral de la cadena de suministro que permite que los distintos actores involucrados interactúen de manera más eficiente</p>
-                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal7">
-                          Ver Caso de Estudio
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Proyecto 8 -->
-                  <div class="col d-flex justify-content-center">
-                    <div class="card h-100" style="width: 18rem;">
-                      <img width = "300" height = "150" src="images\chru.png" class="card-img-top image-border project-image" alt="Proyecto 8">
-                      <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Proyecto Stock Material Quirúrgico</h5>
-                        <p class="card-text">Mejora del proceso de gestión de stocks del material quirúrgico de un hospital para aumentar la productividad del personal de enfermería</p>
-                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal8">
-                          Ver Caso de Estudio
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Proyectos -->
-          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+          <i class="fas fa-chevron-left" aria-hidden="true"></i>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+          <i class="fas fa-chevron-right" aria-hidden="true"></i>
           <span class="sr-only">Next</span>
         </a>
       </div>
     </div>
     
     <!-- last section -->
-    <div class="container">
+    <div class="container my-3">
       <div class="row">
         <h2>Habilidades</h2>
       </div>
@@ -277,7 +279,7 @@
         <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
         <a href="#">
             <i class="fas fa-futbol">
-              <p>
+              <p class="descripcion">
               Fútbol
               </p>
             </i>
@@ -286,7 +288,7 @@
         <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
           <a href="#">
             <i class="fas fa-film"> 
-              <p>
+              <p class="descripcion">
                 Películas
               </p>
             </i>
@@ -295,7 +297,7 @@
         <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
           <a href="#">
             <i class="fas fa-music">
-              <p>
+              <p class="descripcion">
                 Música
               </p>
             </i>
@@ -304,7 +306,7 @@
         <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
           <a href="#">
             <i class="fas fa-suitcase-rolling">
-              <p>
+              <p class="descripcion">
                 Viajes
               </p>
             </i>
@@ -580,6 +582,41 @@
   </div>
 </div>
 
+<!-- Modal9 -->
+<div class="modal fade" id="Modal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Proyecto 9</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- News Details Go Here-->
+        <h4>Implementación de Herramientas de Colaboración y Comunicación para Trabajo Colaborativo Remoto</h4>
+        <p class="item-intro text-muted">El equipo de la Radio Escuela Por Internet (REPI) realizó su tercera publicación en la revista digital de las facultades de Ingeniería y Arquitectura de la Universidad de Mendoza. El mismo se denomina La disciplina del coaching para potenciar el rol del docente universitario.</p>
+        <img class="img-fluid d-block mx-auto" src="images/chru-materiales.jpg" alt="" />
+        <h5>Problema a Resolver</h5>
+        <p>Este artículo se presenta como un trabajo interdisciplinario. Combina disciplinas como la pedagogía, la comunicación, la psicología y el coaching. Esta publicación es el resultado de una síntesis del trabajo de maestría de la Mgtr. Lic. María Victoria Favier Gonzalez.<br/>
+            <br/>
+            La tesis se centró en el trabajo realizado con la REPI. La magister propuso relacionar el trabajo comunicacional y pedagógico que tiene como objetivo la radio escuela con la disciplina del coaching psicológico. La tesis fue presentada en el Instituto Superior de Psicología y Educación (ISPEDUC) de Madrid, España.<br/>
+            <br/>
+            El artículo presentado en la revista de la Universidad de Mendoza se centra principalmente en la idea de un nuevo rol docente que utilice las herramientas del coaching psicológico para potenciar, no solo el desarrollo intelectual de los estudiantes, sino también, el desarrollo y potencial de la personalidad de cada uno de los individuos que asisten a la institución universitaria para formarse.<br/>
+            <br/>
+            El coaching psicológico se presenta así como una herramienta que trabaja en conjunto con los recursos pedagógicos de los profesores para comprender al individuo como un sujeto formado por mente, cuerpo y alma. Por lo tanto, la propuesta educacional de este nuevo rol docente se centraría en lograr facilitar la mayor cantidad de conocimientos y experiencias en esos tres aspectos del ser humano.<br/>                                
+            <br/>
+            Podés ingresar al siguiente link para leer la publicación:  <a href= "https://www.um.edu.ar/ojs2019/index.php/FAI/article/view/820" target="_blank">La disciplina del coaching para potenciar el rol del docente universitario.</a>
+        </p>
+        <h5>Cómo se resolvió</h5>
+        <h5>Decisiones tomadas para llegar a la solución</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <script>
   var exampleModal = document.getElementById(id)
@@ -603,7 +640,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
 
 <script>
   $('.carousel').carousel({
-  interval: 7000
+  interval: 10000
 })
 </script>
 

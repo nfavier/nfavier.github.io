@@ -1,7 +1,16 @@
 /* Write some CSS below */
-.container {
-  width: 1800px; /* set the width of your container */
-  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+#banner {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+	/* margin: 20px;*/
+	text-align: center;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-box-sahdow{
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
 }
 
 .titles{
@@ -11,14 +20,15 @@
 
 .descripcion{
 	text-align: justify;
+	font-family: 'Roboto ', sans-serif;
+	font-size: 18px;
+	padding: 10px 0px;
 }
 
 .sub-titles{
 	text-align: center;
-}
-
-.descripciones-proyectos{
-	text-align: justify;
+	font-weight: 700;
+	font-family: 'Roboto ', sans-serif;
 }
 
 .button{
@@ -34,43 +44,18 @@
 
 .button:hover{
 	background-color: #08529b;
-	color: white;
 }
 
-#banner {
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('images/background.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 150px;
-  /* margin: 20px;*/
-  text-align: center;
-  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
-}
-
-.image-border{
-	border: 3px solid black;
-	border-radius: 2px;
-}
 
 .card-white{
-		background: white;
-	  	padding: 30px;
-	  	border: 2px solid lightgrey;
-		text-align: center;
-		font-size: 24px;
-		font-family: 'Roboto', sans-serif;
-		margin: 20px 0px;
-		box-shadow: 3px 3px 4px rgba(0, 0, 0,0.1);
-		}
-
-.card-white img{
-	width: auto;
-	height: 180px;
-	object-fit: cover;
-	object-position: center;
-	border-radius: 50%;
-	border: 2px solid black;
-
+	background: white;
+	padding: 30px;
+	border: 2px solid lightgrey;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	margin: 20px 0px;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0,0.1);
 }
 
 .img-circle:hover {
@@ -78,116 +63,69 @@
   z-index: 1;
 }
 
-.img-size{
-	width: 180px;
-	height: 180px;
-}
-
 .project-image{
 	object-fit: scale-down;
 }
 
-@media (max-width: 960px){
-	.card-white p{
-		font-size: 18px;
-		font-family: 'Roboto', sans-serif;
-	}
+.image-border{
+	border: 2px solid #333333;
 }
-
-@media (max-width: 720px){
-	.card-white p{
-		font-size: 12px;
-		font-family: 'Roboto', sans-serif;
-	}
-}
-
 
 .flags{
-		/* background: white;*/
-	  /* padding: 30px;*/
-	  /* border: 2px solid lightgrey;*/
-		text-align: center;
-		font-size: 24px;
-		font-family: 'Roboto', sans-serif;
-		/* margin: 20px 0px;*/
-		/* box-shadow: 3px 3px 4px rgba(0, 0, 0,0.1);*/
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .flag-icon{
 	font-size: 40px;
 }
 
-.projects{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-column-gap: 100px;
-	justify-content: center;
-}
-
-.card-white-left{
-		background: white;
-	  padding: 30px;
-	  border: 2px solid lightgrey;
-		text-align: left;
-		font-size: 24px;
-		font-family: 'Roboto', sans-serif;
-		margin: 20px;
-		box-shadow: 3px 3px 4px rgba(0, 0, 0,0.1);
-}
-
-#horizontal-list{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
-
-.habilidad-box {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px 88.9px;
-  text-decoration: none;
-}
-
-.habilidad-box:hover {
-  background-color: #111111;
-}
-
 .fas.fa-futbol{
 	color: black;
-	font-size: 25px;
+	font-size: 18px;
 }
 
 .fas.fa-film{
 	color: black;
-	font-size: 25px;
+	font-size: 18px;
 }
 
 .fas.fa-music{
 	color: black;
-	font-size: 25px;
+	font-size: 18px;
 }
 
 .fas.fa-suitcase-rolling{
 	color: black;
-	font-size: 25px;
+	font-size: 18px;
 }
 
-.padding-col{
-	padding: 20px 0px;
-}
-  
-.my-carousel-bg {
-	background-color: #adb5bd;
-	border: 2px solid lightgrey;
-	text-align: center;
-	box-shadow: 3px 3px 4px rgba(0, 0, 0,0.1);
-	
+.fas.fa-chevron-left{
+	color: #111111;
+	font-size: 30px;
 }
 
-.icons-font{
-	font-family: 'Roboto ', sans-serif;
+.fas.fa-chevron-right{
+	color: #111111;
+	font-size: 30px;
+}
+
+.carousel-control-prev {
+margin-left: -40px;
+}
+
+.carousel-control-next {
+margin-right: -40px;
+}
+
+.carousel-indicators{
+	margin-bottom: -5px;
+}
+
+.carousel .carousel-indicators li {
+	background-color: #c3ccd5;
+}
+.carousel .carousel-indicators li.active {
+	background-color: black;
 }

@@ -13,6 +13,10 @@
 	text-align: justify;
 }
 
+.sub-titles{
+	text-align: center;
+}
+
 .descripciones-proyectos{
 	text-align: justify;
 }
@@ -29,12 +33,12 @@
 }
 
 .button:hover{
-	background-color: darkgray;
+	background-color: #08529b;
 	color: white;
 }
 
 #banner {
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('images/background.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('images/background.jpg');
   background-size: cover;
   background-position: center;
   padding: 150px;
@@ -50,8 +54,8 @@
 
 .card-white{
 		background: white;
-	  padding: 30px;
-	  border: 2px solid lightgrey;
+	  	padding: 30px;
+	  	border: 2px solid lightgrey;
 		text-align: center;
 		font-size: 24px;
 		font-family: 'Roboto', sans-serif;
@@ -69,17 +73,18 @@
 
 }
 
-.img-circle{
-	border-radius: 50%;
-}
-
 .img-circle:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index: 1;
 }
 
 .img-size{
 	width: 180px;
 	height: 180px;
+}
+
+.project-image{
+	object-fit: scale-down;
 }
 
 @media (max-width: 960px){
@@ -171,4 +176,18 @@
 	font-size: 25px;
 }
 
+.padding-col{
+	padding: 20px 0px;
+}
   
+.my-carousel-bg {
+	background-color: #adb5bd;
+	border: 2px solid lightgrey;
+	text-align: center;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0,0.1);
+	
+}
+
+.icons-font{
+	font-family: 'Roboto ', sans-serif;
+}

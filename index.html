@@ -10,6 +10,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
    <!-- Flags CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+  <!-- Carrousel -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- End Carrousel -->
+
+
 
   <title>Nicolas Favier Landing Page</title>
   <link rel="icon" type="image/jpg" href="images/fotoperfil.jpg">
@@ -20,208 +29,308 @@
 </head>
 <body>
   <div class="container">
-  <div class="row align-items-center">
     <!-- introduction -->
-    <div class="card-white">
-      <div id="banner">
-        <h1 class="titles">Portfolio de Proyectos de Nicolas Favier</h1>
-        <h3 class="titles">Master of Applied Science en Supply Chain Management </h3>
-        <h3 class="titles">Ingeniero Industrial y Mecánico </h3>
-      </div>
-    </div>
-  </div>
- 
-  <!-- first section -->
-  <div class="card-white">
-    <div class="row align-items-end">
-      <div class="col">
-        <img class="rounded mx-auto d-block" width = "300" height = "300" src="images\fotoperfil.jpg" alt="foto perfil">
-      </div>
-      <div class="row align-items-end">
-        <h2>Perfil Profesional</h2>
-      </div>
-      <div class="row align-items-end">
-        <div class="col align-self-center">
-          <p class="descripcion">Soy Ingeniero Industrial y Mecánico con un buen conocimiento en gestión de la producción y Supply Chain Management. Poseo además una formación completa en filosofías como Lean Management y Six Sigma. Me considero proactivo, orientado a soluciones, responsable y con visión estratégica y sistémica. Me desempeño de excelente manera trabajando en equipo y busco siempre desarrollar la mejora continua. Me gusta mucho también practicar deportes, en especial fúbol; escuchar música; ver series y películas.</p>
-          <a href="https://www.linkedin.com/in/nicolas-favier-gonzalez/" target="_blank" class="button">Perfil de LinkedIn</a>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="card-white">
+          <div id="banner">
+            <h1 class="titles">Portfolio de Proyectos de Nicolas Favier</h1>
+            <h3 class="titles">Master of Applied Science en Supply Chain Management </h3>
+            <h3 class="titles">Ingeniero Industrial y Mecánico </h3>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-          
+    <!-- first section -->
+    <div class="container">
+      <div class="card-white">
+        <div class="row p-3">
+          <div class="col">
+            <img class="rounded mx-auto d-block" width = "300" height = "300" src="images\fotoperfil.jpg" alt="foto perfil">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col p-3">
+            <h2 style="font-weight: bold" class="sub-titles">Perfil Profesional</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="descripcion">Soy Ingeniero Industrial y Mecánico con un buen conocimiento en gestión de la producción y Supply Chain Management. Poseo además una formación completa en filosofías como Lean Management y Six Sigma. Me considero proactivo, orientado a soluciones, responsable y con visión estratégica y sistémica. Me desempeño de excelente manera trabajando en equipo y busco siempre desarrollar la mejora continua. Me gusta mucho también practicar deportes, en especial fúbol; escuchar música; ver series y películas.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://www.linkedin.com/in/nicolas-favier-gonzalez/" target="_blank" class="btn btn-primary btn-lg button">Perfil de LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>         
     <!-- second section -->
-    <!-- Proyectos -->
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner my-carousel-bg">
+            <div class="carousel-item active">
+                <!-- Proyectos -->
+                <div class="container">
+                  <div class="row">
+                    <!-- Proyecto 1 -->
+                    <div class="col d-flex justify-content-center">
+                      <div class="card h-100" style="width: 18rem;">
+                        <img width = "300" height = "150" src="images\teams.png" class="card-img-top image-border project-image" alt="Proyecto 1">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Proyecto Herramientas Colaboración</h5>
+                          <p class="card-text">Implementación de herramientas de colaboración de Microsoft para trabajar colaborativamente en los equipos dentro de una organización de 2.500 empleados</p>
+                          <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal1">
+                            Ver Caso de Estudio
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="col d-flex justify-content-center">
+                      <div class="card h-100" style="width: 18rem;">
+                        <img width = "300" height = "150" src="images\docusign.png" class="card-img-top image-border project-image" alt="Proyecto 2">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Proyecto Firma Electrónica y Digital</h5>
+                          <p class="card-text">Transformación de procesos para pasar de firmas en papel a firma electrónica y digital en procesos comerciales y de compliance</p>
+                          <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal2">
+                            Ver Caso de Estudio
+                          </button>
+                        </div>
+                      </div>
+                    </div>                
+                  </div>
+                </div>
+                <!-- Proyectos -->
+            </div>
+            <div class="carousel-item">
+              <!-- Proyectos -->
+              <div class="container">
+                <div class="row">
+                  <!-- Proyecto 3 -->
+                  <div class="col d-flex justify-content-center">   
+                    <div class="card h-100" style="width: 18rem;">
+                      <img width = "300" height = "150" src="images\sindespercidio.jpg" class="card-img-top image-border project-image" alt="Proyecto 3">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Proyecto Plataforma Sin Desperdicio</h5>
+                        <p class="card-text">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>
+                        <a href="https://www.sindesperdicio.net.ar/" target="_blank" class="btn btn-primary mt-auto">Ver Proyecto</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Proyecto 4 -->
+                  <div class="col d-flex justify-content-center">
+                    <div class="card h-100" style="width: 18rem;">
+                      <img width = "300" height = "150" src="images\agile.png" class="card-img-top image-border project-image" alt="Proyecto 4">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Proyecto Modelo Organización Ágil</h5>
+                        <p class="card-text">Implementación de un modelo de gestión ágil en los distintos equipos de la organización para obtener resultados más rápidamente</p>
+                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal4">
+                          Ver Caso de Estudio
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Proyectos -->
+            </div>
+            <div class="carousel-item">
+                <!-- Proyectos -->
+                <div class="container">
+                  <div class="row">
+                    <!-- Proyecto 5 -->
+                    <div class="col d-flex justify-content-center">   
+                      <div class="card h-100" style="width: 18rem;">
+                        <img width = "300" height = "150" src="images\sindespercidio.jpg" class="card-img-top image-border project-image" alt="Proyecto 5">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Proyecto 5</h5>
+                          <p class="card-text">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>
+                          <a href="https://www.sindesperdicio.net.ar/" target="_blank" class="btn btn-primary mt-auto">Ver Proyecto</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Proyecto 6 -->
+                    <div class="col d-flex justify-content-center">
+                      <div class="card h-100" style="width: 18rem;">
+                        <img width = "300" height = "150" src="images\agile.png" class="card-img-top image-border project-image" alt="Proyecto 6">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Proyecto 6</h5>
+                          <p class="card-text">Implementación de un modelo de gestión ágil en los distintos equipos de la organización para obtener resultados más rápidamente</p>
+                          <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal6">
+                            Ver Caso de Estudio
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Proyectos -->
+            </div>
+            <div class="carousel-item">
+              <!-- Proyectos -->
+              <div class="container">
+                <div class="row">
+                  <!-- Proyecto 7 -->
+                  <div class="col d-flex justify-content-center">   
+                    <div class="card h-100" style="width: 18rem;">
+                      <img width = "300" height = "150" src="images\sindespercidio.jpg" class="card-img-top image-border project-image" alt="Proyecto 7">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Proyecto 7</h5>
+                        <p class="card-text">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>
+                        <a href="https://www.sindesperdicio.net.ar/" target="_blank" class="btn btn-primary mt-auto">Ver Proyecto</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Proyecto 8 -->
+                  <div class="col d-flex justify-content-center">
+                    <div class="card h-100" style="width: 18rem;">
+                      <img width = "300" height = "150" src="images\chru.png" class="card-img-top image-border project-image" alt="Proyecto 8">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Proyecto Stock Material Quirúrgico</h5>
+                        <p class="card-text">Mejora del proceso de gestión de stocks del material quirúrgico de un hospital para aumentar la productividad del personal de enfermería</p>
+                        <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal8">
+                          Ver Caso de Estudio
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Proyectos -->
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    
+    <!-- last section -->
     <div class="container">
       <div class="row">
-        <div class="col d-flex justify-content-center">
-          <!-- Proyecto 1 -->
-          <div class="card h-100" style="width: 18rem;">
-            <img width = "300" height = "250" src="images\teams.png" class="card-img-top image-border" alt="Proyecto 1">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Proyecto Teams</h5>
-              <p class="card-text">Implementación de herramientas de colaboración de Microsoft para trabajar colaborativamente en los equipos dentro de una organización de 2.500 empleados</p>
-              <!-- <a href="#" class="btn btn-primary mt-auto">Ver Proyecto</a>-->
-              <!-- Trigger/Open The Modal -->
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal1">
-                Ver Proyecto
-              </button>
-
-
-
-            </div>
-          </div>
-          <!-- <img class="rounded mx-auto d-block img-circle card-white" width = "300" height = "300" src="images\teams.png" alt="Proyecto 1">
-          <h3>Proyecto Teams</h3>
-          <p class="descripciones-proyectos">Implementación de herramientas de colaboración de Microsoft para trabajar colaborativamente en los equipos dentro de una organización de 2.500 empleados</p>-->
+        <h2>Habilidades</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          Excel
         </div>
-        <div class="col d-flex justify-content-center">
-          <!-- Proyecto 2 -->
-          <div class="card h-100" style="width: 18rem;">
-            <img width = "300" height = "250" src="images\docusign.png" class="card-img-top image-border" alt="Proyecto 2">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Proyecto DocuSign</h5>
-              <p class="card-text">Transformación de procesos para pasar de firmas en papel a firma electrónica y digital en procesos comerciales y de compliance</p>
-              <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal2">
-                Ver Proyecto
-              </button>
-              
-              <!--<a href="#" class="btn btn-primary mt-auto">Ver Proyecto</a>-->
-            </div>
-          </div>
-          <!-- <img class="rounded mx-auto d-block img-circle card-white" width = "300" height = "300" src="images\docusign.png" alt="Proyecto 2">
-          <h3>Proyecto DocuSign</h3>
-          <p class="descripciones-proyectos">Transformación de procesos para pasar de firmas en papel a firma electrónica y digital en procesos comerciales y de compliance</p>--> 
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          PowerBI
         </div>
-        <div class="col d-flex justify-content-center">
-          <!-- Proyecto 3 -->
-          <div class="card h-100" style="width: 18rem;">
-            <img width = "300" height = "250" src="images\sindespercidio.jpg" class="card-img-top image-border" alt="Proyecto 3">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Proyecto Sin Desperdicio</h5>
-              <p class="card-text">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>
-              <a href="https://www.sindesperdicio.net.ar/" target="_blank" class="btn btn-primary mt-auto">Ver Proyecto</a>
-            </div>
-          </div>
-          <!--<img class="rounded mx-auto d-block img-circle card-white" width = "300" height = "300" src="images\sindespercidio.jpg" alt="Proyecto 3">
-          <h3>Proyecto Sin Desperdicio</h3>
-          <p class="descripciones-proyectos">Plataforma para recuperar alimentos en buen estado y ayudar a las personas en situación de vulnerabilidad a tener un plato de comida digno y saludable</p>-->
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          SQL
         </div>
-        <div class="col d-flex justify-content-center">
-          <!-- Proyecto 4 -->
-          <div class="card h-100" style="width: 18rem;">
-            <img width = "300" height = "250" src="images\agile.png" class="card-img-top image-border" alt="Proyecto 4">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Proyecto Agilidad</h5>
-              <p class="card-text">Implementación de un modelo de gestión ágil en los distintos equipos de la organización para obtener resultados más rápidamente</p>
-              <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#Modal4">
-                Ver Proyecto
-              </button>
-              <!--<a href="#" class="btn btn-primary mt-auto">Ver Proyecto</a>-->
-            </div>
-          </div>
-          <!--<img class="rounded mx-auto d-block img-circle card-white" width = "300" height = "300" src="images\agile.png" alt="Proyecto 4">
-          <h3>Proyecto Agilidad</h3>
-          <p class="descripciones-proyectos">Implementación de un modelo de gestión ágil en los distintos equipos de la organización para obtener resultados más rápidamente</p>-->
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          Python
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          HTML
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          CSS
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          Scrum
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          Kanban
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          Six Sigma
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          SAP
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          JD Edwards
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
+          ClickUp
         </div>
       </div>
     </div>
-<!-- last section -->
-  <div class="container">
-    <h2>Habilidades</h2>
-    <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        Excel
+    <!-- footer -->
+    <div class="container">
+      <div class="row">
+        <h2>Otros Intereses</h2>
       </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        PowerBI
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        SQL
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        Python
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        HTML
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        CSS
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        Scrum
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        Kanban
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        Six Sigma
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        SAP
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        JD Edwards
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-2 rounded mx-auto d-block img-circle card-white">
-        ClickUp
-      </div>
-    </div>
-
-
-  </div>
-  <!-- footer -->
-<div class="container">
-    <h2>Otros Intereses</h2>
-    <div class="row">
-      <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
-       <a href="#">
-          <i class="fas fa-futbol"> Fútbol</i>
-        </a>
-      </div>
-      <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
         <a href="#">
-          <i class="fas fa-film"> Películas</i>
-        </a>
-      </div>
-      <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
-        <a href="#">
-          <i class="fas fa-music"> Música</i>
-        </a>
-      </div>
-      <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
-        <a href="#">
-          <i class="fas fa-suitcase-rolling"> Viajar</i>
-        </a>
+            <i class="fas fa-futbol">
+              <p>
+              Fútbol
+              </p>
+            </i>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
+          <a href="#">
+            <i class="fas fa-film"> 
+              <p>
+                Películas
+              </p>
+            </i>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
+          <a href="#">
+            <i class="fas fa-music">
+              <p>
+                Música
+              </p>
+            </i>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3 rounded mx-auto d-block img-circle card-white">
+          <a href="#">
+            <i class="fas fa-suitcase-rolling">
+              <p>
+                Viajes
+              </p>
+            </i>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-
-<div class="container">
-    <h2>Idiomas</h2>
-    <div class="row">
-      <div class="col-sm-6 col-md-3 rounded mx-auto d-block flags">
-        <span class="flag-icon flag-icon-ar"></span>
-        <p>Español</p>
-      </div>
-      <div class="col-sm-6 col-md-3 rounded mx-auto d-block flags">
-        <span class="flag-icon flag-icon-us"></span>
-        <p>Inglés</p>
-      </div>
-      <div class="col-sm-6 col-md-3 rounded mx-auto d-block flags">
-        <span class="flag-icon flag-icon-fr"></span>
-        <p>Francés</p>
-      </div>
-      <div class="col-sm-6 col-md-3 rounded mx-auto d-block flags">
-        <span class="flag-icon flag-icon-it"></span>
-        <p>Italiano</p>
-      </div>
+    <div class="container">
+      <div class="row"> 
+        <h2>Idiomas</h2>
+      </div>  
+      <div class="row">
+        <div class="col-sm-6 col-md-3 rounded mx-auto d-block flags">
+          <span class="flag-icon flag-icon-ar img-circle"></span>
+          <p>Español</p>
+        </div>
+        <div class="col-sm-6 col-md-3 rounded mx-auto d-block flags">
+          <span class="flag-icon flag-icon-us img-circle"></span>
+          <p>Inglés</p>
+        </div>
+        <div class="col-sm-6 col-md-3 rounded mx-auto d-block flags">
+          <span class="flag-icon flag-icon-fr img-circle"></span>
+          <p>Francés</p>
+        </div>
+        <div class="col-sm-6 col-md-3 rounded mx-auto d-block flags">
+          <span class="flag-icon flag-icon-it img-circle"></span>
+          <p>Italiano</p>
+        </div>
+      </div> 
     </div>
-  </div>
-
 
 <!-- Modal -->
 <!-- Modal1 -->
@@ -229,14 +338,15 @@
   <div class="modal-dialog modal-xl modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Proyecto Teams</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Proyecto Herramientas Colaboración</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <!-- News Details Go Here-->
-        <h2 class="text-uppercase">Nueva publicación en la revista de la UM</h2>
+        <h4>Implementación de Herramientas de Colaboración y Comunicación para Trabajo Colaborativo Remoto</h4>
         <p class="item-intro text-muted">El equipo de la Radio Escuela Por Internet (REPI) realizó su tercera publicación en la revista digital de las facultades de Ingeniería y Arquitectura de la Universidad de Mendoza. El mismo se denomina La disciplina del coaching para potenciar el rol del docente universitario.</p>
         <img class="img-fluid d-block mx-auto" src="img/webum.jpg" alt="" />
+        <h5>Problema a Resolver</h5>
         <p>Este artículo se presenta como un trabajo interdisciplinario. Combina disciplinas como la pedagogía, la comunicación, la psicología y el coaching. Esta publicación es el resultado de una síntesis del trabajo de maestría de la Mgtr. Lic. María Victoria Favier Gonzalez.<br/>
             <br/>
             La tesis se centró en el trabajo realizado con la REPI. La magister propuso relacionar el trabajo comunicacional y pedagógico que tiene como objetivo la radio escuela con la disciplina del coaching psicológico. La tesis fue presentada en el Instituto Superior de Psicología y Educación (ISPEDUC) de Madrid, España.<br/>
@@ -246,7 +356,9 @@
             El coaching psicológico se presenta así como una herramienta que trabaja en conjunto con los recursos pedagógicos de los profesores para comprender al individuo como un sujeto formado por mente, cuerpo y alma. Por lo tanto, la propuesta educacional de este nuevo rol docente se centraría en lograr facilitar la mayor cantidad de conocimientos y experiencias en esos tres aspectos del ser humano.<br/>                                
             <br/>
             Podés ingresar al siguiente link para leer la publicación:  <a href= "https://www.um.edu.ar/ojs2019/index.php/FAI/article/view/820" target="_blank">La disciplina del coaching para potenciar el rol del docente universitario.</a>
-          </p>
+        </p>
+        <h5>Cómo se resolvió</h5>
+        <h5>Decisiones tomadas para llegar a la solución</h5>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -343,9 +455,25 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   </script>
 
 
+<script>
+  $('.carousel').carousel({
+  interval: 7000
+})
+</script>
+
 
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+
 </body>
 </html>
